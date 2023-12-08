@@ -36,7 +36,7 @@ def math(num1, operation, num2):
         result = num1 % num2
     else:
         return 'Error: Invalid operation'
-    
+
     return f'<p>Result of {num1} {operation} {num2} is: {result}</p>'
 
 if __name__ == '__main__':
